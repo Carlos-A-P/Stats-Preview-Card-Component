@@ -1,6 +1,6 @@
 # 3-column preview card component
 
-- Live website -()
+- Live website -(https://carlospwd-stats-card.netlify.app/)
 
 ## Table of contents
 
