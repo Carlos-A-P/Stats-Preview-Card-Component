@@ -21,7 +21,7 @@ body {
 	grid-area: wrapper;
 	text-align: center;
 	border-radius: 0 0 0.75rem 0.75rem;
-	padding: 2rem 0.7rem 2.5rem;
+	padding: 2rem 2.5rem 2.5rem;
 	background-color: rgb(26, 24, 54);
 }
 
@@ -38,7 +38,9 @@ body {
 
 /* inside the card */
 h1 {
-	font-family: "Lexend Deca", sans-serif;
+	font-family: "Inter", sans-serif;
+	font-size: 2.3rem;
+	font-weight: 600;
 }
 
 p {
@@ -46,12 +48,11 @@ p {
 }
 
 p,
-.stats {
+.statText {
 	color: rgb(164, 163, 175);
 	font-size: 15px;
 	letter-spacing: 1px;
 	font-family: "Inter", sans-serif;
-	font-family: "Lexend Deca", sans-serif;
 }
 
 span {
@@ -62,15 +63,16 @@ span {
 	display: flex;
 	flex-direction: column;
 	font-family: "Inter", sans-serif;
-	font-family: "Lexend Deca", sans-serif;
-}
-
-.statText {
-	margin: 0;
+	/* font-family: "Lexend Deca", sans-serif; */
 }
 
 .statNumber h3 {
 	margin-bottom: 0;
+}
+
+.statNumber {
+	font-size: 1.2rem;
+	margin-bottom: 0.5rem;
 }
 
 .footer {
@@ -85,13 +87,13 @@ span {
 @media (min-width: 900px) {
 	.context {
 		grid-template-areas: "wrapper image";
-		max-width: 900px;
-		max-height: 500px;
+		max-width: 1000px;
+		height: 450px;
 	}
 
 	.wrapper {
 		text-align: start;
-		padding: 2rem 3rem 3rem;
+		padding: 2rem 14% 3rem;
 		border-radius: 0.75em 0 0 0.75em;
 	}
 
@@ -101,12 +103,16 @@ span {
 		border-radius: 0 0.75em 0.75em 0;
 	}
 
+	p {
+		padding-bottom: 4rem;
+	}
+
 	.stats {
 		flex-direction: row;
 	}
 
 	.stat2,
 	.stat3 {
-		margin-left: 2rem;
+		margin-left: auto;
 	}
 }
