@@ -7,6 +7,10 @@ body {
 	background: rgb(10, 12, 27);
 }
 
+main {
+	height: 100vh;
+}
+
 .context {
 	margin: 10% auto;
 	width: 90%;
@@ -49,7 +53,7 @@ p {
 p,
 .statText {
 	color: rgb(164, 163, 175);
-	font-size: 15px;
+	font-size: 14px;
 	letter-spacing: 1px;
 	font-family: "Inter", sans-serif;
 }
@@ -65,19 +69,18 @@ span {
 	/* font-family: "Lexend Deca", sans-serif; */
 }
 
-.statNumber h3 {
+.statNumber h2 {
 	margin-bottom: 0;
 }
 
 .statNumber {
-	font-size: 1.2rem;
+	font-size: 16px;
 	margin-bottom: 0.5rem;
 }
 
 .footer {
 	font-size: 15px;
 	text-align: center;
-	margin-top: 5rem;
 }
 .footer a {
 	color: hsl(228, 45%, 44%);
@@ -104,6 +107,7 @@ span {
 
 	p {
 		padding-bottom: 4rem;
+		padding-left: 1rem;
 	}
 
 	.stats {
