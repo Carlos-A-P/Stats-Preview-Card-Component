@@ -19,7 +19,7 @@ Users should be able to:
 
 ### Screenshot
 
-![result](https://user-images.githubusercontent.com/85038929/125146202-7c211500-e0d9-11eb-885d-8bd693df9cf9.JPG)
+![result](https://user-images.githubusercontent.com/85038929/125146239-ad014a00-e0d9-11eb-9ca6-2b8dfea31ec6.JPG)
 
 ## My process
 
