@@ -1,4 +1,4 @@
-# 3-column preview card component
+# Stats Preview Card Component
 
 - Live website -(https://carlospwd-stats-card.netlify.app/)
 
